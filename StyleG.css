@@ -91,48 +91,33 @@ nav button {
 	margin: 0px auto;
 	margin-top: 1px;
 }
-.s-box {
-	width: 580px;
-	margin: 0px auto;
-	position: relative;
-	margin-top: -37px;
-	text-align: center;
-}
-.s-box .s-input {
-	display: block;
-	border: 1px solid #ddd;
-	color: rgba(0,0,0, 0.87);
-	font-size: 16px;
-	padding: 13px;
-	padding-left: 45px;
-	border-radius: 25px;
-	width: 100%;
-	transition: box-shadow 100ms;
+.bar{
+	margin:0 auto;
+	width:575px;
+	border-radius:30px;
+	border:1px solid #dcdcdc;
+  }
+  .bar:hover{
+	box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+  .bar:focus-within{
+	box-shadow: 1px 1px 8px 1px #dcdcdc;
+	outline:none;
+  }
+  .searchbar{
+	height:45px;
+	border:none;
+	width:500px;
+	font-size:16px;
 	outline: none;
-}
-.s-box  .s-input:hover {
-	border: 1px solid #fff;
-	box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 
-				0 0 2px rgba(0, 0, 0, 0.05),
-				0 0 3px rgba(0, 0, 0, 0.05),
-				0 0 4px rgba(0, 0, 0, 0.05), 
-				0 0 5px rgba(0, 0, 0, 0.05), 
-				0 0 4px rgba(0, 0, 0, 0.05), 
-				0 0 5px rgba(0, 0, 0, 0.05)
-}
-.s-box .search-icon {
-	width: 20px;
-	opacity: .4;
-	position: absolute;
-	top: 13px;
-	left: 14px;
-}
-.s-box .vs-icon {
-	width: 14px;
-	position: absolute;
-	top: 13px;
-	right: 24px;
-}
+	
+  }
+  .voice{
+	height:20px;
+	position:relative;
+	top:5px;
+	left:10px;
+  }
 .s-btn {
 	border: 1px solid transparent;
 	padding: 9px 15px;
@@ -150,6 +135,7 @@ nav button {
 	border: 1px solid #aaa;
 }
 .langs {
+	margin-left: 730px;
 	margin-top: 35px;
 	margin-bottom: 50px;
 	text-align: center;
